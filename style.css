@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2e2d2d;
+    margin: 0px;
+}
+
+.logo {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    display: flex;
+
+    padding: 16px;
+}
+
+.header-links ul {
+    display: flex;
+    color: #ffffff;
+    gap: 32px;
+    padding: 16px;
+
+    list-style: none;
+}
+
+.block-1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #525252;
+    padding-block: 32px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.summary h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.summary button {
+    justify-self: left;
+    max-width: 500px;
+}
+
+.block-1 img {
+    flex-shrink: 0;
+}
+
+.block-2 {
+    display: flex;
+    flex-direction: column;
+}
+.information-header {
+    align-self: center;
+    font-size: 32px;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.information {
+    max-width: 200px;
+    align-self: baseline;
+}
